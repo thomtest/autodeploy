@@ -1,4 +1,3 @@
-Get-Module –ListAvailable VM* | Import-Module
 Import-Module ActiveDirectory
 
 CLS
@@ -81,6 +80,3 @@ foreach ($vm in $vmlist){
 	#Disconnect-VIServer -Server $vcenter -Force -Confirm:$false
 
 	}
-
-
-	
